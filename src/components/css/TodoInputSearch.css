@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-3px);
+}
+  
+.floating-input {
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(31, 31, 31, 0.5);
+    transform: translateY(-3px);
+}
+
+.floating-input:hover {
+    box-shadow: 0 8px 15px rgba(31, 31, 31, 0.5);
+    transform: translateY(-3px);
+}
+
+.floating-input:focus {
+    box-shadow: 0 12px 20px rgba(31, 31, 31, 0.5);
+    transform: translateY(-5px);
+    border-color: black;
+}
+  
